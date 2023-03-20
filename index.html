@@ -8,6 +8,27 @@
     <title>Event-Capture-Table</title>
   </head>
   <body>
+    <form>
+      <input
+        type="text"
+        placeholder=" Enter text here"
+        id="input"
+        autocomplete="off"
+      />
+      <button type="button" id="button">Submit</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Sr. No.</th>
+          <th>Event Name</th>
+          <th>Element</th>
+          <th>Count</th>
+          <th>Custom Attributes</th>
+        </tr>
+      </thead>
+      <tbody id="table-container"></tbody>
+    </table>
     <script src="script.js"></script>
   </body>
 </html>
